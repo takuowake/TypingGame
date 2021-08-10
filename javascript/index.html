@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>サンプルデモ</title>
+  </head>
+  <body>
+    <h1>JavaScript関連の最新記事 by GitHub</h1>
+    
+    <button id="btn">更新</button>
+    <div id="result"></div>
+    <Br>
+    <a href="https://takuowake.github.io/javascript/typing.html">タイピングゲームへ</a>
+    
+    <script>
+      const url = 'https://940978222de54285b6d896b2f3c98f23.vfs.cloud9.us-west-2.amazonaws.com/_static/javascript/typing.html';
+      const btn = document.getElementById('btn');
+      const result = document.getElementById('result');
+      
+      const createResult = item => {
+        const h2 = document.createElement('h2');
+        
+        h2.textContent = 'リポジトリの総数は、' + item.total_count + '件です';
+        
+        result.appendChild(h2);
+      }
+      
+      btn.addEventListener('click', () => {
+        result.innerHTML = '';
+        
+        fetch(url)
+        .then(data => data.json())
+        .then(data => createResult(data))
+      })
+    </script>
+  </body>
+</html>
