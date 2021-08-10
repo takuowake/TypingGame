@@ -1,25 +1,14 @@
-<h1>タイピングゲーム</h1>
-最初にアイキャッチ画像などを表示
+# Typing_Game
+![Screen Shot 2021-08-10 at 15 27 20](https://user-images.githubusercontent.com/74645968/128820770-f9d22b4c-576f-4730-ba8b-88d07f598169.png)
 
-# リポジトリ名
-このソフトはどんなもので、何ができるのかを書く
-合わせて、簡単なデモ（使用例）などスクリーンショットやGIFアニメで表示
+This is a typing game. You can check your typing level.<br>
+You press the start button to start. The time limit is 60 second.
+
+![Typing_start](https://user-images.githubusercontent.com/74645968/128823694-a9751112-70f8-40cb-9fc0-fad86152247e.gif)
+
+After the time limit of 60 seconds has passed, a dialog message will be displayed to check the results of "Number of characters entered" and "Rank".
+
+![Screen Shot 2021-08-10 at 16 21 21](https://user-images.githubusercontent.com/74645968/128825199-008f5762-860e-4fd5-b26f-3760fc2c1453.png)
 
 ## Dependency
-使用言語とバージョン、必要なライブラリとそのバージョンを書く
-Pythonならrequirements.txtを用意するのも良い
-
-## Setup
-セットアップ方法を書く。用意するハードウェアとソフトウェアをセットアップするためのコマンドを記載する
-
-## Usage
-使い方。なるべく具体的に書く。サンプルも書く
-
-## License
-This software is released under the MIT License, see LICENSE.
-
-## Authors
-作者を明示する。特に、他者が作成したコードを利用する場合は、そのコードのライセンスに従った上で、リポジトリのそれぞれのコードのオリジナルの作者が誰か分かるように明示する（私はそれが良いと思い自主的にしています）。
-
-## References
-参考にした情報源（サイト・論文）などの情報、リンク
+HTML/CSS/Javascript
